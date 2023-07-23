@@ -1,0 +1,52 @@
+/* more Other styles on the way */
+
+.places .amenities {
+    margin-top: 40px;
+}
+
+.places .amenities h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.places .amenities ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.places .amenities li {
+    padding-left: 20px;
+    position: relative;
+}
+
+/* Add icon styles using Font Awesome classes */
+.places .amenities li::before {
+    content: '\f6f1'; /* Font Awesome class for the icon */
+    font-family: 'Font Awesome 5 Free'; /* Font Awesome font-family */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.places .reviews {
+    margin-top: 40px;
+}
+
+.places .reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.places .reviews ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.places .reviews li h3 {
+    font-size: 14px;
+}
+
+.places .reviews li p {
+    font-size: 12px;
+}
