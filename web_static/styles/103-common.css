@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* common styles for accessibility */
+/* Example: Ensuring sufficient color contrast for text and background */
+body {
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+/* Example: Increasing font size for better readability */
+body {
+    font-size: 16px;
+}
+
+/* Example: Adding focus styles for better keyboard navigation */
+a:focus,
+button:focus {
+    outline: 2px solid #FF5A5F;
+}
